@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  azure_floci:
+    container_name: azure_floci
+    image: floci/floci-az:latest
+    ports:
+      - "4577:4577"
+      - "5672:5672"
+      - "5673:5673"
