@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  floci-aws:
+    container_name: floci_aws
+    image: floci/floci:latest
+    ports:
+      - "4566:4566"
+    volumes:
+      - floci_aws_volume:/var/run/docker.sock
+
