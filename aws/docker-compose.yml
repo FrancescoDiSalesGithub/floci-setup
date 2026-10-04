@@ -8,3 +8,5 @@ services:
     volumes:
       - floci_aws_volume:/var/run/docker.sock
 
+volumes:
+  floci_aws_volume:
