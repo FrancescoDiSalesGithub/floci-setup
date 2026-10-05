@@ -1,6 +1,7 @@
 version: '3.6'
 services:
   floci-gcp:
+    container_name: gcp_provider
     image: floci/floci-gcp:latest
     ports:
       - "4588:4588"
